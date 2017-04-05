@@ -11,7 +11,6 @@ $array = explode(" ", $string);
 $word = array_count_values($array);
 
 
-
 foreach ($word as $key => $value) {
     printf("%s kommer %u gånger <br> ",$key, $value);
 }
